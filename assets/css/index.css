@@ -16,16 +16,48 @@ body {
 }
 
 header {
-    background-color: #f8b600;
+    background-color: #E6AC48;
     color: rgb(248, 245, 241);
-    padding: 20px;
+    padding: 10px 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+     position: relative; 
+}
+
+
+.link-admin {
+    text-decoration: none;
+    position: absolute;
+    top: 10px;    
+    right: 20px; 
+    color: white;
+}
+
+.link-admin:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color:#f06000
+
+}
+
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
 }
 
 header h1 {
+    font-size: 50px; 
+    margin: 0; 
+    flex: 1;
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 10px;
 }
+
 
 nav ul {
     list-style: none;
@@ -85,7 +117,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #f8b600;
+    background-color: #E6AC48;
     text-align: center;
     color: white;
     padding: 10px;
